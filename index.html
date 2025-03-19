@@ -12,43 +12,43 @@
     <body>
         <header>
             <h1 class="header">WebAgency</h1>
-            <nav>
-                <ul>
+            <nav class="">
+                <ul class="nav-list">
                     <li>
-                        <a class="" href="#about">О нас</a>
+                        <a class="nav-link" href="#about">О нас</a>
                     </li>
                     <li>
-                        <a href="#services">Услуги</a>
+                        <a class="nav-link" href="#services">Услуги</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Портфолио</a>
+                        <a class="nav-link" href="#portfolio">Портфолио</a>
                     </li>
                     <li>
-                        <a href="#testimonials">Отзывы</a>
+                        <a class="nav-link" href="#testimonials">Отзывы</a>
                     </li>
                     <li>
-                        <a href="#contact">Контакты</a>
+                        <a class="nav-link" href="#contact">Контакты</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <section>
-            <h2>Создаем современные и удобные сайты</h2>
+        <section class="hero-section">
+            <h2 class="hero-title">Создаем современные и удобные сайты</h2>
             <p>Профессиональная веб-разработка для вашего бизнеса</p>
             <button class="submit">Заказать сайт</button>
         </section>
 
-        <section>
+        <section class="testimonials-section">
             <h2>О нас</h2>
             <p>
                 Мы - команда профессионалов, разрабатывающая стильные и
                 функциональные сайты.
             </p>
-            <img src="assets/team.jpg" alt="Наша команда" />
+            <img class="about-image" src="assets/team.jpg" alt="Наша команда" />
         </section>
 
-        <section>
+        <section class="">
             <h2>Наши услуги</h2>
             <ul>
                 <li>Дизайн и разработка</li>
@@ -58,16 +58,16 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Наши работы</h2>
-            <div>
-                <div>
+        <section class="">
+            <h2 class="services-list">Наши работы</h2>
+            <div class="">
+                <div class="portfolio-item">
                     <img src="assets/project1.webp" alt="Проект 1" />
                 </div>
-                <div>
+                <div class="portfolio-item">
                     <img src="assets/project2.png" alt="Проект 2" />
                 </div>
-                <div>
+                <div class="portfolio-item">
                     <img src="assets/project3.png" alt="Проект 3" />
                 </div>
             </div>
@@ -85,11 +85,11 @@
             <h2>Контакты</h2>
             <p>
                 Email:
-                <a href="mailto:contact@webagency.com">contact@webagency.com</a>
+                <a class="primary" href="mailto:contact@webagency.com">contact@webagency.com</a>
             </p>
             <p>
                 Телефон:
-                <a href="tel:+79991234567">+7 999 123 45 67</a>
+                <a class="primary" href="tel:+79991234567">+7 999 123 45 67</a>
             </p>
             <form>
                 <input type="text" name="name" placeholder="Ваше имя" />
@@ -97,7 +97,7 @@
                 <textarea
                     name="message"
                     placeholder="Ваше сообщение"></textarea>
-                <button type="submit">Отправить</button>
+                <button class="submit" type="submit">Отправить</button>
             </form>
         </footer>
     </body>
