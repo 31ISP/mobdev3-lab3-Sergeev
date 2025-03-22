@@ -2,18 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta
-            name="description"
-            content="Агентство веб-разработки - создаем современные сайты" />
+        <meta name="description" content="Агентство веб-разработки - создаем современные сайты" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Веб-Агентство</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <h1 class="header">WebAgency</h1>
-            <nav class="">
-                <ul class="nav-list">
+        <header class="header">
+            <h1 class="logo">WebAgency</h1>
+            <nav>
+                <ul class="main-nav nav-list">
                     <li>
                         <a class="nav-link" href="#about">О нас</a>
                     </li>
@@ -35,11 +33,11 @@
 
         <section class="hero-section">
             <h2 class="hero-title">Создаем современные и удобные сайты</h2>
-            <p>Профессиональная веб-разработка для вашего бизнеса</p>
-            <button class="submit">Заказать сайт</button>
+            <p class="hero-text">Профессиональная веб-разработка для вашего бизнеса</p>
+            <button class="btn primary">Заказать сайт</button>
         </section>
 
-        <section class="testimonials-section">
+        <section class="about-section">
             <h2>О нас</h2>
             <p>
                 Мы - команда профессионалов, разрабатывающая стильные и
@@ -48,19 +46,19 @@
             <img class="about-image" src="assets/team.jpg" alt="Наша команда" />
         </section>
 
-        <section class="">
+        <section class="services-section">
             <h2>Наши услуги</h2>
-            <ul>
-                <li>Дизайн и разработка</li>
-                <li>SEO-оптимизация</li>
-                <li>Поддержка и обслуживание</li>
-                <li>Аналитика и маркетинг</li>
+            <ul class="services-list">
+                <li class="service-item">Дизайн и разработка</li>
+                <li class="service-item">SEO-оптимизация</li>
+                <li class="service-item">Поддержка и обслуживание</li>
+                <li class="service-item">Аналитика и маркетинг</li>
             </ul>
         </section>
 
-        <section class="">
-            <h2 class="services-list">Наши работы</h2>
-            <div class="">
+        <section class="portfolio-section">
+            <h2>Наши работы</h2>
+            <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <img src="assets/project1.webp" alt="Проект 1" />
                 </div>
@@ -73,31 +71,29 @@
             </div>
         </section>
 
-        <section>
+        <section class="testimonials-section">
             <h2>Отзывы клиентов</h2>
             <blockquote>
-                <p>"Отличная работа! Сайт сделали быстро и качественно."</p>
-                <cite>— Иван Петров, CEO</cite>
+                <p class="testimonial">"Отличная работа! Сайт сделали быстро и качественно."</p>
+                <cite class="testimonial-author">— Иван Петров, CEO</cite>
             </blockquote>
         </section>
 
-        <footer>
+        <footer class="footer-section">
             <h2>Контакты</h2>
-            <p>
+            <p class="contact-info">
                 Email:
-                <a class="primary" href="mailto:contact@webagency.com">contact@webagency.com</a>
+                <a href="mailto:contact@webagency.com">contact@webagency.com</a>
             </p>
-            <p>
+            <p class="contact-info">
                 Телефон:
-                <a class="primary" href="tel:+79991234567">+7 999 123 45 67</a>
+                <a href="tel:+79991234567">+7 999 123 45 67</a>
             </p>
-            <form>
-                <input type="text" name="name" placeholder="Ваше имя" />
-                <input type="email" name="email" placeholder="Ваш email" />
-                <textarea
-                    name="message"
-                    placeholder="Ваше сообщение"></textarea>
-                <button class="submit" type="submit">Отправить</button>
+            <form class="contact-form">
+                <input class="form-input" type="text" name="name" placeholder="Ваше имя" />
+                <input class="form-input" type="email" name="email" placeholder="Ваш email" />
+                <textarea class="form-textarea" name="message" placeholder="Ваше сообщение"></textarea>
+                <button class="btn submit" type="submit">Отправить</button>
             </form>
         </footer>
     </body>
